@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('Page_Login/input_Sign up_password'), 'TestOps!2021
 
 WebUI.click(findTestObject('Page_Login/button_Sign in'))
 
-WebUI.waitForElementPresent(findTestObject('Page_Organization Test Flag ON - Katalon TestOps/Logo'), 0)
+WebUI.waitForElementPresent(findTestObject('Page_Project - Test Cases - Katalon TestOps/Test Suites sub nav'), 0)
 
 WebUI.closeBrowser()
 
